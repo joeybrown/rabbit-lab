@@ -1,0 +1,69 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26124.0
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5A568417-8FD8-4608-AC46-D1F65CF91B81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Receive", "src\Receive\Receive.csproj", "{5D290FF2-ADF6-41B3-994B-0EE120A05FAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Send", "src\Send\Send.csproj", "{B72C1C62-98F0-4C76-891F-4FBD73548E80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewTask", "src\NewTask\NewTask.csproj", "{5D9E42CC-BBFD-4D00-8CAD-3F27176FF91D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5D290FF2-ADF6-41B3-994B-0EE120A05FAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D290FF2-ADF6-41B3-994B-0EE120A05FAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D290FF2-ADF6-41B3-994B-0EE120A05FAE}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{5D290FF2-ADF6-41B3-994B-0EE120A05FAE}.Debug|x64.Build.0 = Debug|Any CPU
+		{5D290FF2-ADF6-41B3-994B-0EE120A05FAE}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5D290FF2-ADF6-41B3-994B-0EE120A05FAE}.Debug|x86.Build.0 = Debug|Any CPU
+		{5D290FF2-ADF6-41B3-994B-0EE120A05FAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D290FF2-ADF6-41B3-994B-0EE120A05FAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D290FF2-ADF6-41B3-994B-0EE120A05FAE}.Release|x64.ActiveCfg = Release|Any CPU
+		{5D290FF2-ADF6-41B3-994B-0EE120A05FAE}.Release|x64.Build.0 = Release|Any CPU
+		{5D290FF2-ADF6-41B3-994B-0EE120A05FAE}.Release|x86.ActiveCfg = Release|Any CPU
+		{5D290FF2-ADF6-41B3-994B-0EE120A05FAE}.Release|x86.Build.0 = Release|Any CPU
+		{B72C1C62-98F0-4C76-891F-4FBD73548E80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B72C1C62-98F0-4C76-891F-4FBD73548E80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B72C1C62-98F0-4C76-891F-4FBD73548E80}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{B72C1C62-98F0-4C76-891F-4FBD73548E80}.Debug|x64.Build.0 = Debug|Any CPU
+		{B72C1C62-98F0-4C76-891F-4FBD73548E80}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B72C1C62-98F0-4C76-891F-4FBD73548E80}.Debug|x86.Build.0 = Debug|Any CPU
+		{B72C1C62-98F0-4C76-891F-4FBD73548E80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B72C1C62-98F0-4C76-891F-4FBD73548E80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B72C1C62-98F0-4C76-891F-4FBD73548E80}.Release|x64.ActiveCfg = Release|Any CPU
+		{B72C1C62-98F0-4C76-891F-4FBD73548E80}.Release|x64.Build.0 = Release|Any CPU
+		{B72C1C62-98F0-4C76-891F-4FBD73548E80}.Release|x86.ActiveCfg = Release|Any CPU
+		{B72C1C62-98F0-4C76-891F-4FBD73548E80}.Release|x86.Build.0 = Release|Any CPU
+		{5D9E42CC-BBFD-4D00-8CAD-3F27176FF91D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D9E42CC-BBFD-4D00-8CAD-3F27176FF91D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D9E42CC-BBFD-4D00-8CAD-3F27176FF91D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{5D9E42CC-BBFD-4D00-8CAD-3F27176FF91D}.Debug|x64.Build.0 = Debug|Any CPU
+		{5D9E42CC-BBFD-4D00-8CAD-3F27176FF91D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5D9E42CC-BBFD-4D00-8CAD-3F27176FF91D}.Debug|x86.Build.0 = Debug|Any CPU
+		{5D9E42CC-BBFD-4D00-8CAD-3F27176FF91D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D9E42CC-BBFD-4D00-8CAD-3F27176FF91D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D9E42CC-BBFD-4D00-8CAD-3F27176FF91D}.Release|x64.ActiveCfg = Release|Any CPU
+		{5D9E42CC-BBFD-4D00-8CAD-3F27176FF91D}.Release|x64.Build.0 = Release|Any CPU
+		{5D9E42CC-BBFD-4D00-8CAD-3F27176FF91D}.Release|x86.ActiveCfg = Release|Any CPU
+		{5D9E42CC-BBFD-4D00-8CAD-3F27176FF91D}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5D290FF2-ADF6-41B3-994B-0EE120A05FAE} = {5A568417-8FD8-4608-AC46-D1F65CF91B81}
+		{B72C1C62-98F0-4C76-891F-4FBD73548E80} = {5A568417-8FD8-4608-AC46-D1F65CF91B81}
+		{5D9E42CC-BBFD-4D00-8CAD-3F27176FF91D} = {5A568417-8FD8-4608-AC46-D1F65CF91B81}
+	EndGlobalSection
+EndGlobal
